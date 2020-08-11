@@ -1,0 +1,23 @@
+.profile{
+    .profile-buttons{
+        .profile-buttons__btn{
+            color: $white;
+            border: none;
+            padding: 10px;
+        }
+        .message{
+            background-color: paleturquoise;
+            transition: .3s;
+            &:hover{
+                background-color: mediumturquoise;
+            }
+        }
+        .follow{
+            background-color: lightsalmon;
+            transition: .3s;
+            &:hover{
+                background-color: salmon;
+            }
+        }
+    }
+}

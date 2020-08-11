@@ -1,0 +1,58 @@
+.banner{
+    height: 280px;
+    width: 100%;
+    background-image: url('../img/image-banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile{
+    border-bottom: 1px solid lightgray;
+    .profile-account{
+        .profile-account__img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .profile-account__info{
+            h4{
+                font-weight: 700;
+                font-size: 1.2em;
+                padding: 0;
+                margin: 0;
+            }
+            p{
+                color: gray;
+                font-size: .8em;
+                padding: 0;
+                margin: 0;
+            }
+    
+        }
+    }
+}
+@media (max-width: 768px) {
+    .banner{
+        height: 180px;
+    }
+    .profile-account{
+        margin: 0 auto;
+    }
+}
+section{
+    h2{
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    .card-video{
+        h3{
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+        p{
+            color: gray;
+            font-size: 1em;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+// Base
+@import 'base/reset', 'base/typography';
+// Abstracts
+@import 'abstracts/functions', 'abstracts/mixins', 'abstracts/placeholders', 'abstracts/variable';
+// Components
+@import 'components/buttons', 'components/carousel', 'components/cover', 'components/dropdown';
+// Layout
+@import 'layout/footer', 'layout/forms', 'layout/grid', 'layout/header', 'layout/navigation', 'layout/navigation';
+// Pages
+@import 'pages/contact', 'pages/home', 'pages/blog';
+// Vendors
+@import 'vendors/bootstrap-4.5.0/bootstrap.scss';
+// Themes
+@import 'themes/admin', 'themes/theme';

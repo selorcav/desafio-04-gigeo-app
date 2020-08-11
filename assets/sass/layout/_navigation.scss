@@ -1,0 +1,25 @@
+.navbar{
+    line-height: 3em;
+    .logo{
+        img{
+            height: 40px;
+        }
+    }
+    .navbar-nav{
+        a{
+            color: $black;
+            font-size: 1.5em;
+            transition: .3s;
+            &:hover{
+                color: $hover-menu;
+            }
+        }
+    }
+    .hamburger-menu{
+        font-size: 1.5em;
+        transition: .3s;
+        &:hover{
+            color: $hover-menu;
+        }
+    }
+}
